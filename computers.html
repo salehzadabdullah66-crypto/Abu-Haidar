@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صيانة الكمبيوتر واللابتوب | أبو حيدر</title>
+  <meta name="description" content="خدمات صيانة الحواسيب المحمولة والمكتبية: تسريع اللابتوب، تغيير المعجون الحراري، تثبيت الـ SSD وتصليح اللوحة الأم.">
+  <link rel="shortcut icon" href="img/logo/abu-haider-logo.jpg" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <div class="preloader">
+    <img src="img/logo/abu-haider-logo.jpg" alt="أبو حيدر" class="preloader-logo">
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="img/logo/abu-haider-logo.jpg" alt="أبو حيدر">
+        <div class="brand-info">
+          <span class="brand-title">أبو حيدر</span>
+          <span class="brand-tagline">خبرة • سرعة • ثقة</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">الرئيسية</a>
+        <a href="about.html" class="nav-link">من نحن</a>
+        <a href="services.html" class="nav-link">الخدمات</a>
+        <a href="phones.html" class="nav-link">صيانة الهواتف</a>
+        <a href="computers.html" class="nav-link active">صيانة الكمبيوتر</a>
+        <a href="gallery.html" class="nav-link">معرض الأعمال</a>
+        <a href="offers.html" class="nav-link">العروض</a>
+        <a href="testimonials.html" class="nav-link">آراء العملاء</a>
+        <a href="faq.html" class="nav-link">الأسئلة الشائعة</a>
+        <a href="contact.html" class="nav-link">تواصل معنا</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tr/computers.html" class="header-icon-btn lang-btn" title="Türkçe" style="font-weight: 800; font-size: 0.85rem; color: var(--color-gold);">TR</a>
+        <button class="header-icon-btn theme-toggle-btn" title="تبديل الوضع"><i class="fas fa-moon"></i></button>
+        <button class="header-icon-btn search-trigger" title="البحث السريع"><i class="fas fa-search"></i></button>
+        <a href="repairs.html" class="btn btn-primary" style="padding: 0.65rem 1.4rem; font-size: 0.9rem;">احجز صيانة</a>
+        <div class="hamburger-btn"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav-overlay"></div>
+  <div class="mobile-nav">
+    <a href="index.html" class="nav-link">الرئيسية</a>
+    <a href="about.html" class="nav-link">من نحن</a>
+    <a href="services.html" class="nav-link">الخدمات</a>
+    <a href="phones.html" class="nav-link">صيانة الهواتف</a>
+    <a href="computers.html" class="nav-link active">صيانة الكمبيوتر</a>
+    <a href="gallery.html" class="nav-link">معرض الأعمال</a>
+    <a href="offers.html" class="nav-link">العروض</a>
+    <a href="testimonials.html" class="nav-link">آراء العملاء</a>
+    <a href="faq.html" class="nav-link">الأسئلة الشائعة</a>
+    <a href="contact.html" class="nav-link">تواصل معنا</a>
+    <a href="repairs.html" class="btn btn-primary" style="margin-top: 1rem;">احجز صيانة الآن</a>
+  </div>
+
+  <section style="padding-top: calc(var(--header-height) + 4rem); padding-bottom: 4rem; background: var(--bg-secondary); border-bottom: 1px solid var(--border-glass); text-align: center;">
+    <div class="container">
+      <span class="section-subtitle"><i class="fas fa-laptop-code"></i> صيانة الحاسوب المحمول والمكتبي</span>
+      <h1 class="section-title" style="font-size: 3rem; margin-top: 0.5rem;">حلول الكمبيوتر <span>الاحترافية</span></h1>
+      <p class="section-description">نضمن لك أفضل سرعة أداء واستقرار تام لجهازك المكتبي أو اللابتوب مع قطع غيار أصلية.</p>
+    </div>
+  </section>
+
+  <!-- Computer Services Breakdown -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="cards-grid">
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper"><i class="fas fa-microchip"></i></div>
+          <h3 class="service-title">تركيب أقراص SSD السريعة</h3>
+          <p class="service-text">استبدال الـ HDD القديم بقرص NVMe SSD فائق السرعة ليفتح جهازك خلال 5 ثوانٍ فقط.</p>
+          <a href="repairs.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.6rem 1.2rem;">احجز ترقية SSD</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper"><i class="fas fa-fan"></i></div>
+          <h3 class="service-title">تنظيف الحرارة والمعجون الفاخر</h3>
+          <p class="service-text">فك المشتت الحراري، تنظيف المراوح من الأتربة وتطبيق معجون حراري عالي الموصلية لحماية المعالج.</p>
+          <a href="repairs.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.6rem 1.2rem;">تنظيف وصيانة حرارة</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper"><i class="fab fa-windows"></i></div>
+          <h3 class="service-title">إصلاح Windows وتنزيل النظام</h3>
+          <p class="service-text">تثبيت Windows 11 / 10 الأصلي مع تفعيل البرامج وتثبيت كافة التعريفات المتوافقة.</p>
+          <a href="repairs.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.6rem 1.2rem;">طلب فورمات ونظام</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper"><i class="fas fa-memory"></i></div>
+          <h3 class="service-title">ترقية وتوسيع الذاكرة RAM</h3>
+          <p class="service-text">إضافة رامات عالية السرعة لتشغيل برامج التصميم والألعاب المعقدة دون أي بطء أو تهنيج.</p>
+          <a href="repairs.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.6rem 1.2rem;">ترقية الذاكرة</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper"><i class="fas fa-plug"></i></div>
+          <h3 class="service-title">إصلاح مدخل الشحن والشاشة</h3>
+          <p class="service-text">تصليح مفصلات اللابتوب المكسورة، تغيير الشاشة التالفة، وإصلاح سوكيت الشحن الداخلي.</p>
+          <a href="repairs.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.6rem 1.2rem;">إصلاح هيكل وشحن</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper"><i class="fas fa-bug-slash"></i></div>
+          <h3 class="service-title">حل مشاكل الإقلاع والشاشة الزرقاء</h3>
+          <p class="service-text">تشخيص خطأ الـ BSOD وإصلاح شريحة البايوس BIOS الميتة لإعادة تشغيل اللابتوب بكفاءة.</p>
+          <a href="repairs.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.6rem 1.2rem;">فحص الشاشة الزرقاء</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Engineer Saleh Al-Zaidi Showcase Section -->
+  <section class="section-padding owner-section" style="background: var(--bg-card); border-top: 1px solid var(--border-glass); border-bottom: 1px solid var(--border-glass);">
+    <div class="container owner-grid">
+      <div class="owner-img-box reveal-right">
+        <img src="img/owner/saleh-alzaidi.jpg" alt="المهندس صالح الزيدي - مهندس البرمجة وصيانة الكمبيوتر">
+        <div class="owner-badge" style="background: linear-gradient(135deg, rgba(0, 229, 255, 0.95), rgba(0, 136, 204, 0.95)); color: #000; border-color: var(--color-cyan);">
+          <i class="fas fa-laptop-code"></i> المهندس صالح الزيدي
+        </div>
+      </div>
+
+      <div class="owner-content reveal-left">
+        <span class="section-subtitle" style="color: var(--color-cyan);"><i class="fas fa-code"></i> قسم البرمجيات وصيانة الأنظمة</span>
+        <h2 class="section-title">خبرة السنين في <span>صيانة الكمبيوتر والبرمجة</span></h2>
+        <h3 style="color: var(--color-gold); font-size: 1.3rem; font-weight: 800; margin-bottom: 1rem;">المهندس صالح الزيدي</h3>
+        <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 1.5rem;">
+          يمتلك <strong>المهندس صالح الزيدي</strong> خبرة عريقة تمتد لسنوات طويلة في مجالات هندسة البرمجيات، تطوير الأنظمة، وتصليح أعقد أعطال الكمبيوتر واللابتوبات. متخصص في حل مشاكل الأنظمة المستعصية، استعادة البيانات المفقودة، برمجة البايوس BIOS، وتحسين كفاءة وأداء الأجهزة المجهزة للألعاب والتصميم بأعلى مقاييس الأمان والدقة.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+          <div style="background: var(--bg-secondary); padding: 1rem; border-radius: 12px; border: 1px solid var(--border-glass); display: flex; align-items: center; gap: 0.8rem;">
+            <i class="fas fa-microchip" style="color: var(--color-cyan); font-size: 1.5rem;"></i>
+            <div>
+              <h4 style="font-size: 0.95rem; font-weight: 800;">+10 سنوات خبرة</h4>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">في صيانة البرمجيات والعتاد</p>
+            </div>
+          </div>
+
+          <div style="background: var(--bg-secondary); padding: 1rem; border-radius: 12px; border: 1px solid var(--border-glass); display: flex; align-items: center; gap: 0.8rem;">
+            <i class="fas fa-shield-halved" style="color: var(--color-gold); font-size: 1.5rem;"></i>
+            <div>
+              <h4 style="font-size: 0.95rem; font-weight: 800;">أمان وخصوصية 100%</h4>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">حماية كاملة لملفاتك الحساسة</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1.2rem; flex-wrap: wrap;">
+          <a href="repairs.html" class="btn btn-primary"><i class="fas fa-wrench"></i> استشارة المهندس صالح</a>
+          <a href="https://wa.me/905386080575?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%20%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%B5%D8%A7%D9%84%D8%AD%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%A7%D9%84%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> تواصل مع المهندس صالح عبر الواتساب</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 1rem;">
+            <img src="img/logo/abu-haider-logo.jpg" alt="شعار أبو حيدر">
+            <div class="brand-info">
+              <span class="brand-title">أبو حيدر</span>
+              <span class="brand-tagline">خبرة • سرعة • ثقة</span>
+            </div>
+          </a>
+          <p>المركز المعتمد الأحدث لصيانة كافة الهواتف المحمولة والكمبيوترات، بأحدث معدات المايكروسولدر وشاشات وبطاريات عالية الجودة.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/ab0_h96?igsh=dmVxazNldXY3MWMx" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link whatsapp-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@abohaydar013?_r=1&_t=ZS-98pf8tB8qc1" target="_blank" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>روابط سريعة</h3>
+          <div class="footer-links">
+            <a href="index.html"><i class="fas fa-angle-left"></i> الرئيسية</a>
+            <a href="about.html"><i class="fas fa-angle-left"></i> من نحن</a>
+            <a href="services.html"><i class="fas fa-angle-left"></i> الخدمات</a>
+            <a href="gallery.html"><i class="fas fa-angle-left"></i> معرض الأعمال</a>
+            <a href="offers.html"><i class="fas fa-angle-left"></i> العروض الحالية</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>خدمات الصيانة</h3>
+          <div class="footer-links">
+            <a href="phones.html"><i class="fas fa-angle-left"></i> صيانة iPhone</a>
+            <a href="phones.html"><i class="fas fa-angle-left"></i> صيانة Samsung</a>
+            <a href="computers.html"><i class="fas fa-angle-left"></i> تسريع اللابتوبات</a>
+            <a href="computers.html"><i class="fas fa-angle-left"></i> فورمات وWindows</a>
+            <a href="repairs.html"><i class="fas fa-angle-left"></i> احجز موعد صيانة</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>تواصل معنا</h3>
+          <a href="https://maps.app.goo.gl/euoS5bxRguUMzP6A6" target="_blank" class="footer-contact-item">
+            <i class="fas fa-location-dot"></i>
+            <span>موقع الورشة الرئيسي (اضغط للفتح في الخريطة)</span>
+          </a>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone"></i>
+            <span>هاتف / واتساب: +90 539 911 8999</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-clock"></i>
+            <span>ساعات العمل: يومياً من 9:00 صباحاً حتى 10:00 مساءً</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 أبو حيدر لصيانة الهواتف والكمبيوترات — جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="floating-whatsapp whatsapp-link"><i class="fab fa-whatsapp"></i> <span>تواصل مع أبو حيدر</span></a>
+  <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="js/theme.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

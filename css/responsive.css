@@ -1,0 +1,142 @@
+/* Responsive Media Queries for Mobile, Tablet & Desktop */
+
+/* Medium Desktop / Small Laptops (1200px and below) */
+@media (max-width: 1200px) {
+  .nav-menu {
+    gap: 0.9rem;
+  }
+  .nav-link {
+    font-size: 0.85rem;
+  }
+  .brand-tagline {
+    font-size: 0.65rem;
+  }
+}
+
+/* Tablet & Intermediate Screens (1024px and below) */
+@media (max-width: 1024px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .brand-tagline {
+    display: none; /* Hide tagline on smaller screens to prevent text overlap & squishing */
+  }
+
+  .brand-title {
+    font-size: 1.1rem;
+  }
+
+  .hero-grid, .owner-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .hero-visual, .owner-img-box {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* Mobile & Small Tablets (868px and below) */
+@media (max-width: 868px) {
+  .header-actions {
+    gap: 0.35rem;
+  }
+
+  .header-icon-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 0.95rem;
+  }
+
+  .header-actions .btn {
+    padding: 0.5rem 0.9rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .typewriter-box {
+    font-size: 1.25rem;
+  }
+
+  .typewriter-cursor {
+    height: 1.25rem;
+  }
+
+  .hero-main-title {
+    font-size: 2.2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Extra Small Phones (480px and below) */
+@media (max-width: 480px) {
+  .brand-title {
+    font-size: 1rem;
+  }
+
+  .header-actions .btn {
+    display: none; /* Hide top booking button on tiny phones since hamburger menu has it */
+  }
+
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+
+  .royal-frame {
+    padding: 1rem 1.2rem;
+  }
+
+  .typewriter-box {
+    font-size: 1.05rem;
+  }
+
+  .typewriter-cursor {
+    height: 1.05rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .floating-whatsapp {
+    left: 1rem;
+    bottom: 1rem;
+    padding: 0.65rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .back-to-top {
+    right: 1rem;
+    bottom: 1rem;
+    width: 42px;
+    height: 42px;
+  }
+}
