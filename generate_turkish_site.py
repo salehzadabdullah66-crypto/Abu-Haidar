@@ -1666,24 +1666,24 @@ pages_tr["contact.html"] = """<!DOCTYPE html>
     </div>
   </header>
 
-  <section style="padding-top: calc(var(--header-height) + 4rem); padding-bottom: 4rem; background: var(--bg-secondary); border-bottom: 1px solid var(--border-glass); text-align: center;">
+  <section style="padding-top: calc(var(--header-height) + 3rem); padding-bottom: 3.5rem; background: var(--bg-secondary); border-bottom: 1px solid var(--border-glass); text-align: center;">
     <div class="container">
       <span class="section-subtitle"><i class="fas fa-headset"></i> İletişim</span>
-      <h1 class="section-title" style="font-size: 3rem; margin-top: 0.5rem;">Abu Haider ile <span>İletişime Geçin</span></h1>
+      <h1 class="section-title contact-hero-title" style="margin-top: 0.5rem;">Abu Haider ile <span>İletişime Geçin</span></h1>
       <p class="section-description">Sorularınız ve cihaz arıza kaydınız için bize ulaşın.</p>
     </div>
   </section>
 
   <section class="section-padding">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+      <div class="contact-grid">
         
         <div>
           <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--color-gold); margin-bottom: 1.5rem;">İletişim Bilgilerimiz</h2>
           
           <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 2.5rem;">
-            <div style="display: flex; gap: 1.2rem; align-items: center; background: var(--bg-card); padding: 1.2rem; border-radius: 12px; border: 1px solid var(--border-glass);">
-              <div style="width: 50px; height: 50px; border-radius: 50%; background: rgba(255,215,0,0.1); color: var(--color-gold); display: flex; align-items: center; justify-content: center; font-size: 1.4rem;">
+            <div class="contact-info-card">
+              <div class="contact-info-card-icon" style="width: 50px; height: 50px; border-radius: 50%; background: rgba(255,215,0,0.1); color: var(--color-gold); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0;">
                 <i class="fas fa-phone-volume"></i>
               </div>
               <div>
@@ -1692,8 +1692,8 @@ pages_tr["contact.html"] = """<!DOCTYPE html>
               </div>
             </div>
 
-            <div style="display: flex; gap: 1.2rem; align-items: center; background: var(--bg-card); padding: 1.2rem; border-radius: 12px; border: 1px solid var(--border-glass);">
-              <div style="width: 50px; height: 50px; border-radius: 50%; background: rgba(0,229,255,0.1); color: var(--color-cyan); display: flex; align-items: center; justify-content: center; font-size: 1.4rem;">
+            <div class="contact-info-card">
+              <div class="contact-info-card-icon" style="width: 50px; height: 50px; border-radius: 50%; background: rgba(0,229,255,0.1); color: var(--color-cyan); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0;">
                 <i class="fas fa-location-dot"></i>
               </div>
               <div>
@@ -1705,7 +1705,7 @@ pages_tr["contact.html"] = """<!DOCTYPE html>
             </div>
           </div>
 
-          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div class="contact-action-btns">
             <a href="tel:+905399118999" class="btn btn-primary"><i class="fas fa-phone"></i> Hemen Ara</a>
             <a href="#" class="btn btn-whatsapp whatsapp-link"><i class="fab fa-whatsapp"></i> WhatsApp Mesajı</a>
             <a href="https://maps.app.goo.gl/euoS5bxRguUMzP6A6" target="_blank" class="btn btn-secondary"><i class="fas fa-map-location-dot"></i> Yol Tarifi Al</a>
@@ -1736,9 +1736,9 @@ pages_tr["contact.html"] = """<!DOCTYPE html>
 
       </div>
 
-      <div style="margin-top: 4rem; border-radius: 16px; overflow: hidden; border: 1px solid var(--border-color); position: relative;">
-        <iframe src="https://maps.google.com/maps?q=37.0710396,37.3945766&hl=tr&z=17&output=embed" width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <a href="https://maps.app.goo.gl/euoS5bxRguUMzP6A6" target="_blank" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px; font-size: 0.85rem; padding: 0.65rem 1.2rem;">
+      <div class="contact-map-wrapper">
+        <iframe class="contact-map-iframe" src="https://maps.google.com/maps?q=37.0710396,37.3945766&hl=tr&z=17&output=embed" allowfullscreen="" loading="lazy"></iframe>
+        <a href="https://maps.app.goo.gl/euoS5bxRguUMzP6A6" target="_blank" class="btn btn-primary contact-map-btn" style="position: absolute; bottom: 15px; right: 15px; font-size: 0.85rem; padding: 0.65rem 1.2rem;">
           <i class="fas fa-map-location-dot"></i> Google Maps'te Aç
         </a>
       </div>
